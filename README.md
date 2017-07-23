@@ -8,11 +8,7 @@ Simple version-controlled key-value query API
 * Express
 * MongoDB
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for testing purposes. 
-
-## Running the tests
+## Running the code
 
 After copying the files in local computer
 In the root folder install Express, MongoDB, and body-parser to help deal with JSON requests.
