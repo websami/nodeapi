@@ -1,0 +1,27 @@
+{
+  "name": "samcode",
+  "version": "0.0.1",
+  "description": "Version controlled key-value store created by Sam Saravillo",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websami/nodeapi.git"
+  }, 
+  "author": "Sam Saravillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/websami/nodeapi/issues"
+  },
+  "homepage": "https://github.com/websami/nodeapi#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
