@@ -15,7 +15,15 @@ These instructions will get you a copy of the project up and running on your loc
 ## Running the tests
 
 After copying the files in local computer
-You can test this by using Postman to send a POST/GET request to localhost:3000/notes
+In the root folder install Express, MongoDB, and body-parser to help deal with JSON requests.
+
+```
+npm install --save express mongodb body-parser
+```
+This will create a folder name : node_modules 
+
+Run npm run dev (or node server.js if you didn’t install Nodemon) you should see ‘We are live on 3000’ in the terminal.
+Then using Postman to send a POST/GET request to localhost:3000/notes
 
 ## Author
 
